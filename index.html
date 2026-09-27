@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>
+      body{
+        display: flex;
+        justify-content:center;
+        margin: 100px;
+       
+      }
+    .ls-card{
+        color: white;
+        width: 290px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        height: 300px;
+        border-radius: 20px 0px 0px 20px ;
+        background: linear-gradient(135deg, #ff7836 0%, #ff6b3d 45%, #ff9624 100%);
+       
+    }
+    .btn{
+        border-radius: 15px;
+        background: linear-gradient(135deg, #ff7836 0%, #ff6b3d 45%, #ff9624 100%);
+        padding: 5px;
+        border: white;
+        font-size: medium;
+    }
+     .btn:hover{
+        color:black;
+        font-size: medium;
+     }
+     p{
+        font-size: medium;
+     }
+     .entr-icon:hover{
+       color: black;
+     }
+
+    /*  upar wala left  */
+    .rs-card{
+        width: 290px;
+      background-color: #ccc;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+       justify-content: center;
+       justify-content:center;
+       align-items: center;
+       
+
+    }
+    h1{
+        font-family: Arial,  sans-serif;
+    }
+    .soc-icons{
+        display: flex;
+        gap: 22px;
+        justify-content: center;
+    }
+  .or {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.sp1 hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+ 
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 5px;
+}
+.chbx{
+    width: 250px;
+    height: 20px;
+}
+
+.reg:hover{
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    padding: px;
+    
+}
+.reg{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+
+
+</style>
+<body>
+     <div class="ls-card">
+        <div class="entr-icon">
+            <i class="fa-solid fa-right-to-bracket"></i>
+        
+        </div>
+            <h1>Welcome Back!</h1>
+        <p> To keep connected with us please login with your personal info </p>
+        
+        <div class="btn">
+            <span class="lgn"><i class="fa-solid fa-arrow-left"></i> LOG IN </span>
+        </div>
+     </div>
+
+
+         <!--  IS SE OPAR LEFT WALA HA OR NICHE RIGHT -->
+
+
+     <div class="rs-card">
+        <h1> Sign Up </h1>
+        <div class="soc-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="or">
+            <hr>
+            <span class="sp1"> Or </span>
+            <hr>
+        </div>
+        <div class="form">
+            <input class="chbx" type="text" placeholder="name">
+             <input  class="chbx" type="email" placeholder="email">
+              <input  class="chbx" type="password" placeholder="password">
+              <label>
+                <input type="checkbox"> I accept terms.
+              </label>
+              </div>
+             <br>
+        
+        <div class="reg">
+            <span> REGISTER </span>
+        </div>
+     </div>
+
+</body>
+</html>
